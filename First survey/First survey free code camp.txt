@@ -1,0 +1,127 @@
+<!DOCtype html>
+<html lang="en">
+<header>
+<meta charset="utf-8" />
+
+<link href="styles.css"rel="stylesheet"type="text/css">
+<title> Free Code Camp Survey </title>
+<h1 id="title"> freeCodeCampSurvey </h1>
+</header>
+
+<body>
+<p id="description"> Thank you for taking the time to help us improve the platform </p>
+
+<form id="survey-form">
+<label for= "name" id="name-label"> Name: <br> </label> 
+<input type="text" id="name" name="name" placeholder="John_Doe" required>
+<br>
+<br>
+
+<label for= "email" id="email-label"> Email: <br> </label>
+<input type="email" id="email" name="email" placeholder="example@aol.com" required> 
+
+
+
+<br>
+<br>
+
+<label for= "number" id="number-label"> Age: <br>  </label> 
+<input type="text" min="15" max=" 100" id="number" name="number" placeholder="82" required/>
+
+
+<br>
+<br>
+
+
+<label for= "dropdown" id="dropdown-label"> Which option best describes your current role </label>
+<br>
+
+<select type="dropdown" name="dropdown" id="dropdown" required>
+
+<option value="select_one">Select one</option>
+<option value="Student"> Student</option>
+<option value="Full_Time"> Full Time</option>
+<option value="Unemployed">Unemployed</option>
+<option value="Other">Other</option>
+</select>
+
+<br>
+<br>
+<label for="recommend" id="recommend"> Would you recommend? </label>
+<br>
+<input type="radio" id="definitely" name="recommend" value="definitely">
+<label for="recommend">Definitely</label>
+<br>
+<input type="radio" id="maybe" name="recommend" value="maybe">
+<label for="recommend">Maybe</label>
+<br>
+<input type="radio" id="no" name="recommend" value="no">
+<label for="recommend">No</label>
+
+<br>
+<br>
+
+<label for= "dropdown"> What is your favorite feature?</label> 
+<br>
+<select type="dropdown" name="dropdown" id="features" required>
+
+<option value="select_one">Select One</option>
+<option value="challenges"> Challenges</option>
+<option value="project"> Project</option>
+<option value="community">Community</option>
+<option value="Open_source">Open Source</option>
+</select>
+
+<br>
+<br>
+
+<label for="improvement">What would you like to see improved?</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="front-end_projects">
+<label for="checkbox">Front-End Projects</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="back-end_projects">
+<label for="checkbox">Back-End Projects</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="data_visualization">
+<label for="checkbox">Data Visualization</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="challenges">
+<label for="checkbox">Challenges</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="open_source_community">
+<label for="checkbox">Open Source Community</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="glitter_help_rooms">
+<label for="checkbox">Glitter Help Rooms</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="videos">
+<label for="checkbox">Videos</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="city_meetups">
+<label for="checkbox">City Meetups</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="wiki">
+<label for="checkbox">Wiki</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="forum">
+<label for="checkbox">Forum</label>
+<br>
+<input id="checkbox" type="checkbox" name="improvement" value="additional_courses">
+<label for="checkbox">Additional Courses</label>
+
+<br>
+<br>
+
+<label for="textarea" id="textarea"> Any comments or suggestions?</label>
+<br>
+<textarea id="textarea" name="comments" rows="10" cols="40" maxlength="500" placeholder="Enter your comments..."></textarea>
+
+<br>
+<br>
+
+<input id="submit" type="submit" value="submit" class="btn">
+
+</form>
+</body>
+</html>
