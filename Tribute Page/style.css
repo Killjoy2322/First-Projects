@@ -1,0 +1,27 @@
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    align-items: center;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+main{
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+head, h1, p, footer{
+    background-color: rgb(75,75,75);
+}
+#tribute-info{
+    align-items: center;
+    text-align: left;
+}
+h1{
+    color: gold;
+}
+p, #img-caption, #tribute-info, footer{
+    color: rgb(104, 8, 8);
+}
