@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: beige;
+    }
+}
+h1, h2, h6{
+    align-items: left;
+}
+#navbar{
+    justify-content: space-around left
+
+}
+ul{
+    background-color: rgb(82, 77, 77);
+    color: black;
+    align-items: center;
+
+}
