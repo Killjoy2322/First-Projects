@@ -4,6 +4,9 @@ img{
     height: auto;
     align-items: center;
 }
+head, p{
+  text-align: center
+}
 body{
     background-color: rgb(0, 0, 0);
 }
@@ -17,10 +20,18 @@ head, h1, p, footer{
 }
 #tribute-info{
     align-items: center;
-    text-align: left;
+}
+#tribute-info > ul{
+  text-align: left;
+  list-style-position: inside;
+  padding-left: 600px;
+}
+li{
+  text-align: left ;
 }
 h1{
     color: gold;
+    text-align: center;
 }
 p, #img-caption, #tribute-info, footer{
     color: rgb(104, 8, 8);
